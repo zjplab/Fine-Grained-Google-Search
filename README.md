@@ -4,6 +4,7 @@ Google Search is not enough. Sometimes we want to filter some results based on c
 
 ## Usage
 ```python
+from fggs import fine_grained_search
 res_list=fine_grained_search(query, stop=300, func)
 print(res_list)
 ```
