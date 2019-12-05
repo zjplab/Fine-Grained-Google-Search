@@ -1,5 +1,5 @@
 from googlesearch import search
-
+import requests
     
 def fine_garined_search(query, stop=None, func):
     #candidate urls
