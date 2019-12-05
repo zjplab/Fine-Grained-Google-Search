@@ -5,7 +5,7 @@ Google Search is not enough. Sometimes we want to filter some results based on c
 ## Usage
 ```python
 res_list=fine_grained_search(query, stop=300, func)
-print(res_list
+print(res_list)
 ```
 
 where `query` is the original query string, `func` is a function that takes url and filter it accordingly(you may invoke beautifulsoup or some other libs to achieve this)
